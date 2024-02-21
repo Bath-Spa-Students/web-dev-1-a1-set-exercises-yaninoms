@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  p {
+    font-family: monospace;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 300px;
+    margin-left: 300px;
+  }
+  
+  h2 {
+    color: red;
+    text-align: center;
+  }
+
+  table {
+    border: 1px solid black;
+  
+}
