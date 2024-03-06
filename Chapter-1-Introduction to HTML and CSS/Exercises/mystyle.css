@@ -1,23 +1,138 @@
-h1 {
-    color: red;
-    font-style: italic;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
+
+body {
+  background-color: white;
+}
+
+header {
+    color: chocolate;
+    font-family: 'Climate Crisis', sans-serif;
+    font-size:300%;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
-  
-  p {
-    font-family: monospace;
-    margin-top: 80px;
-    margin-bottom: 80px;
+
+p {
+    font-family: "Fredoka", sans-serif;
+    color: chocolate;
+    margin-top: 40px;
+    margin-bottom: 40px;
     margin-right: 300px;
     margin-left: 300px;
   }
-  
-  h2 {
-    color: red;
+
+h2 {
+    color: chocolate;
+    font-family: 'Tilt Warp', sans-serif;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
-  table {
-    border: 1px solid black;
-  
+.about {
+    text-align: center;
+    font-size:120%;
+    background-color: white;
+    font-family: "Fredoka", sans-serif;
+  }
+
+.container {
+    width: 80%; /* Ensures the container spans the entire width */
+    border-style: dashed;
+    border: 50px black;
+  }
+
+.box1 {
+  width: 50%;
+  height: 200px; /* Add a dashed border with 2px width to box2 */
+  float: left;/* Set a background color for box2 */
 }
+
+.box2 {
+    width: 49.5%;
+    height: 500px;
+    color: chocolate;
+    border: 2px double rgb(232, 211, 142); /* Add a dashed border with 2px width to box2 */
+    background-color: rgb(255, 248, 224); 
+    float: right;/* Set a background color for box2 */
+}
+
+.elipse {
+  width: 210px; /* Set the width of the ellipse */
+  height: 80px; /* Set the height of the ellipse */
+  margin-top: 20px;
+  text-align: justify;
+  border-style: double;
+  background-color: white; /* Set a background color */
+  border-radius: 50%; 
+}
+
+Li {
+  font-family: "Fredoka", sans-serif;
+  font-size: 130%;
+}
+
+.ingcontent{
+  text-align: justify;
+  font-size: 100%;
+  margin-right: 20px;
+  margin-left: 35px;
+}
+
+.photo2 {
+  width: 50%;
+  float: left;
+}
+
+.procedure h2 {
+  color: chocolate;
+  font-family: 'Tilt Warp', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.box3 {
+  margin-top: 10px;
+  width: 100%;
+  height: 360px;
+  text-align: justify;
+  border-radius: 40px;
+  border-style: dashed;
+  border-width: medium;
+  border-color:burlywood;
+  background-color:  rgb(255, 255, 255);
+  float: left ;
+}
+
+.proced1{
+  margin-left: 60px;
+  margin-right: 70px;
+  color:chocolate;
+  font-size:medium;
+  float:left;
+}
+
+.msg{
+  color:chocolate;
+  font-family:"Tilt Warp", sans-serif;
+  font-size: 150%;
+}
+
+section {
+  text-align: center;
+  margin-top:30px;
+}
+
+.footer{
+  color:rgb(232, 211, 142);
+}
+
