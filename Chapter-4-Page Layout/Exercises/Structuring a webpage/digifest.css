@@ -1,35 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Tenor+Sans&display=swap');
 * {
     box-sizing: border-box;
   }
    
   body {
-    font-family: "Helvetica";
-    padding: 10px;
-    background:  #D8A48F;
+    font-family: "Arial";
+    background:  #ffffff;
   }
    
   /* Header/Blog Title */
   .header {
     padding: 30px;
     text-align: center;
-    background: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #ffffff;
+    background: #17072b;
   }
    
   .header h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-family:"Tahoma";
   }
    
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
-    background-color:  #FF7747 ;
+    background-color:  rgb(29, 9, 85);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
    
   /* Style the topnav links */
   .topnav a {
     float: left;
     display: block;
-    color: #ffdac7;
+    font-size: 400;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,72 +45,45 @@
    
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: rgb(97, 65, 184);
+    color: rgb(255, 255, 255);
   }
    
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {   
+    position:absolute;
     float: left;
-    width: 75%;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0) ;
+    font-size: 17px;
+    width: 70%;
+  }
+
+  section {
+    margin: 10px;
   }
    
   /* Right column */
-  .rightcolumn {
+  aside {
+    position:absolute;
     float: left;
-    width: 25%;
-    background-color: #D8A48F;
-    padding-left: 20px;
+    width: 30%;
+    margin-top:10px;
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: #172d67;
   }
-   
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
+
+  .rightcolumn {
+    padding: 22px;
   }
-   
-  /* Add a card effect for articles */
-  .card {
-    background-color:  white;
-    padding: 20px;
-    margin-top: 20px;
-  }
-   
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-   
+  
   /* Footer */
   .footer {
-    padding: 20px;
-    text-align: center;
-    background:#272D2D ;
-    margin-top: 20px;
-  }
-  /* Footer */
-  .footer {
-    padding: 30px;
-    text-align: center;
-    background:#AD0D0D ;
-    margin-top: 20px;
-  }
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {   
-      width: 100%;
-      padding: 0;
-    }
-  }
-   
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
+  padding: 30px;
+  text-align: center;
+  background:#AD0D0D ;
+  margin-top: 20px;
 }
