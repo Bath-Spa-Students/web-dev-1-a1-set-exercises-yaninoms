@@ -41,33 +41,33 @@ h2 {
   }
 
 .container {
-    width: 80%; /* Ensures the container spans the entire width */
+    width: 80%; 
     border-style: dashed;
     border: 50px black;
   }
 
 .box1 {
   width: 50%;
-  height: 200px; /* Add a dashed border with 2px width to box2 */
-  float: left;/* Set a background color for box2 */
+  height: 200px; 
+  float: left;
 }
 
 .box2 {
     width: 49.5%;
     height: 500px;
     color: chocolate;
-    border: 2px double rgb(232, 211, 142); /* Add a dashed border with 2px width to box2 */
+    border: 2px double rgb(232, 211, 142); 
     background-color: rgb(255, 248, 224); 
-    float: right;/* Set a background color for box2 */
+    float: right;
 }
 
 .elipse {
-  width: 210px; /* Set the width of the ellipse */
-  height: 80px; /* Set the height of the ellipse */
+  width: 210px;
+  height: 80px; 
   margin-top: 20px;
   text-align: justify;
   border-style: double;
-  background-color: white; /* Set a background color */
+  background-color: white; 
   border-radius: 50%; 
 }
 
