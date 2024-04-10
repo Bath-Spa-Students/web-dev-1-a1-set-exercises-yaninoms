@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcu.css"> <!-- Linking to external CSS file -->
+    <title>Chapter6: Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>PETROL CALCULATOR</h2>
+        <!-- Input field for the cost per liter -->
+        <label for="cost">Cost per liter:</label>
+        <input type="number" id="cost" step="0.01" value="1.72">
+        <br>
+        <!-- Input field for the number of liters purchased -->
+        <label for="liters">Liters purchased:</label>
+        <input type="number" id="liters" step="0.01" value="0">
+        <br>
+        <!-- Button to calculate the total cost -->
+        <button onclick="calculateTotal()">Calculate</button>
+        <!-- Paragraph to display the total cost -->
+        <p id="totalCost">Total cost: $0.00</p>
+    </div>
+
+    <script src="calcu.js"></script> <!-- Linking to external JavaScript file -->
+</body>
+</html>
