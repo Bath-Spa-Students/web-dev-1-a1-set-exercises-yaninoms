@@ -14,11 +14,10 @@ body {
 /* Header styles */
 header {
     color: chocolate; /* Text color */
-    font-family: 'Climate Crisis', sans-serif; /* Use Climate Crisis font */
+    font-family: 'Fredoka', sans-serif; /* Use Climate Crisis font */
     font-size: 2.5rem; /* Large font size */
     text-align: center; /* Center-align text */
-    margin-top: 40px; /* Add top margin */
-    margin-bottom: 20px; /* Add bottom margin */
+    margin-top: 46px; /* Add top margin */
 }
 
 /* Paragraph styles */
@@ -27,14 +26,6 @@ p {
     color: chocolate; /* Text color */
     margin: 40px auto; /* Add margin */
     max-width: 800px; /* Set maximum width */
-}
-
-/* Heading styles */
-h2 {
-    color: chocolate; /* Text color */
-    font-family: 'Tilt Warp', sans-serif; /* Use Tilt Warp font */
-    text-align: center; /* Center-align text */
-    margin: 20px auto; /* Add margin */
 }
 
 /* About section styles */
@@ -47,46 +38,26 @@ h2 {
 
 /* Container styles */
 .container {
-    width: 80%; /* Set width to 80% of the viewport */
-    margin: 0 auto; /* Center-align container */
+    width: 100%; /* Set width to 80% of the viewport */
 }
 
 /* Box3 styles */
 .box3 {
     margin-top: 10px; /* Add top margin */
-    height: 360px; /* Set height */
+    height: 540px; /* Set height */
     border-radius: 40px; /* Add border radius */
-    border: medium dashed burlywood; /* Add border */
+    border: medium double burlywood; /* Add border */
     background-color: rgb(255, 255, 255); /* White background */
 }
 
 /* Procedure styles */
-.proced1 {
+.list {
     margin: 20px; /* Add margin */
     color: chocolate; /* Text color */
     font-size: 1rem; /* Medium font size */
 }
 
-/* Clearfix */
-.clear {
-    clear: both; /* Clear floats */
-}
-
-/* Message styles */
-.msg {
-    color: chocolate; /* Text color */
-    font-family: "Tilt Warp", sans-serif; /* Use Tilt Warp font */
-    font-size: 1.5rem; /* Large font size */
-}
-
 /* Section styles */
-section {
-    text-align: center; /* Center-align text */
+section { /* Center-align text */
     margin-top: 30px; /* Add top margin */
 }
-
-/* Footer styles */
-.footer {
-    color: rgb(232, 211, 142); /* Text color */
-}
-
