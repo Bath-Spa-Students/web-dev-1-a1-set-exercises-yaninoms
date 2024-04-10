@@ -1,79 +1,92 @@
+/* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
 
+/* Body styles */
 body {
-    background-color: #fff;
-    font-family: "Fredoka", sans-serif;
-    color: chocolate;
+    background-color: #fff; /* White background */
+    font-family: "Fredoka", sans-serif; /* Use Fredoka font */
+    color: chocolate; /* Text color */
 }
 
+/* Header styles */
 header {
-    color: chocolate;
-    font-family: 'Climate Crisis', sans-serif;
-    font-size: 2.5rem;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    color: chocolate; /* Text color */
+    font-family: 'Climate Crisis', sans-serif; /* Use Climate Crisis font */
+    font-size: 2.5rem; /* Large font size */
+    text-align: center; /* Center-align text */
+    margin-top: 40px; /* Add top margin */
+    margin-bottom: 20px; /* Add bottom margin */
 }
 
+/* Paragraph styles */
 p {
-    font-family: "Fredoka", sans-serif;
-    color: chocolate;
-    margin: 40px auto;
-    max-width: 800px;
+    font-family: "Fredoka", sans-serif; /* Use Fredoka font */
+    color: chocolate; /* Text color */
+    margin: 40px auto; /* Add margin */
+    max-width: 800px; /* Set maximum width */
 }
 
+/* Heading styles */
 h2 {
-    color: chocolate;
-    font-family: 'Tilt Warp', sans-serif;
-    text-align: center;
-    margin: 20px auto;
+    color: chocolate; /* Text color */
+    font-family: 'Tilt Warp', sans-serif; /* Use Tilt Warp font */
+    text-align: center; /* Center-align text */
+    margin: 20px auto; /* Add margin */
 }
 
+/* About section styles */
 .about {
-    text-align: center;
-    font-size: 1.2rem;
-    background-color: white;
-    font-family: "Fredoka", sans-serif;
+    text-align: center; /* Center-align text */
+    font-size: 1.2rem; /* Medium font size */
+    background-color: white; /* White background */
+    font-family: "Fredoka", sans-serif; /* Use Fredoka font */
 }
 
+/* Container styles */
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 80%; /* Set width to 80% of the viewport */
+    margin: 0 auto; /* Center-align container */
 }
 
+/* Box3 styles */
 .box3 {
-    margin-top: 10px;
-    height: 360px;
-    border-radius: 40px;
-    border: medium dashed burlywood;
-    background-color:  rgb(255, 255, 255);
+    margin-top: 10px; /* Add top margin */
+    height: 360px; /* Set height */
+    border-radius: 40px; /* Add border radius */
+    border: medium dashed burlywood; /* Add border */
+    background-color: rgb(255, 255, 255); /* White background */
 }
 
+/* Procedure styles */
 .proced1 {
-    margin: 20px;
-    color: chocolate;
-    font-size: 1rem;
+    margin: 20px; /* Add margin */
+    color: chocolate; /* Text color */
+    font-size: 1rem; /* Medium font size */
 }
 
+/* Clearfix */
 .clear {
-    clear: both;
+    clear: both; /* Clear floats */
 }
 
+/* Message styles */
 .msg {
-    color: chocolate;
-    font-family: "Tilt Warp", sans-serif;
-    font-size: 1.5rem;
+    color: chocolate; /* Text color */
+    font-family: "Tilt Warp", sans-serif; /* Use Tilt Warp font */
+    font-size: 1.5rem; /* Large font size */
 }
 
+/* Section styles */
 section {
-    text-align: center;
-    margin-top: 30px;
+    text-align: center; /* Center-align text */
+    margin-top: 30px; /* Add top margin */
 }
 
+/* Footer styles */
 .footer {
-    color: rgb(232, 211, 142);
+    color: rgb(232, 211, 142); /* Text color */
 }
 
