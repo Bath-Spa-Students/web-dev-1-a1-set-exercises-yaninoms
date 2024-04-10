@@ -1,8 +1,5 @@
 /* Font imports */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Warp&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
 
 /* Body styles */
 body {
@@ -14,7 +11,7 @@ body {
 /* Header styles */
 header {
     color: chocolate; /* Text color */
-    font-family: 'Fredoka', sans-serif; /* Use Climate Crisis font */
+    font-family: 'Fredoka', sans-serif; 
     font-size: 2.5rem; /* Large font size */
     text-align: center; /* Center-align text */
     margin-top: 46px; /* Add top margin */
@@ -61,3 +58,5 @@ p {
 section { /* Center-align text */
     margin-top: 30px; /* Add top margin */
 }
+
+
