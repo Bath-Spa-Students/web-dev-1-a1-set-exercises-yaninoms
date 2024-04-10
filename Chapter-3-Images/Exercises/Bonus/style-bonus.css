@@ -1,12 +1,12 @@
 
-
+/*From the template of the brief*/
 .a {
     display: inline-block;
     font-family: sans-serif;
     font-size: 20px;
     margin: 25px;
-    box-shadow: 10px 10px 5px red;
-    border: 4px solid rgb(124, 67, 245);
+    box-shadow: 10px 10px 5px red; /* the red offset shadow*/
+    border: 4px solid rgb(124, 67, 245);/*the purple border*/
     line-height: 100px;
     text-align: center;
     width: 200px;
@@ -18,8 +18,8 @@
     font-family: sans-serif;
     font-size: 20px;
     margin: 25px;
-    box-shadow: inset 10px 10px 10px #000;
-    border: 4px solid rgb(78, 255, 38);
+    box-shadow: inset 10px 10px 10px #000; /*the inset command for inset shadow*/
+    border: 4px solid rgb(78, 255, 38); /*green border*/
     line-height: 100px;
     text-align: center;
     width: 200px;
@@ -33,11 +33,12 @@
     font-size: 20px;
     margin: 25px;
     border-radius:27px;
-    border: 6px solid rgb(255, 198, 28);
+    border: 6px solid rgb(255, 198, 28);/*the initial yellow border*/
     line-height: 100px;
     text-align: center;
     width: 200px;
     height: 200px;
+    /*the 3 other borders manipulated as shadows in code*/
     box-shadow: 0 0 0 9px #0022ff,
                 0 0 0 18px rgb(255, 0, 0),
                 0 0 0 26px #00590a;
@@ -48,7 +49,7 @@
   font-family: sans-serif;
   font-size: 20px;
   margin: 25px;
-  border: 4px solid rgb(163, 38, 38);
+  border: 4px solid rgb(163, 38, 38); /*red border for the fourth*/
   line-height: 100px;
   text-align: center;
   width: 200px;
@@ -56,7 +57,7 @@
 }
 
 p{
-  text-shadow: 3px 3px 1px;
+  text-shadow: 3px 3px 1px; /*the offset text shadow*/
 }
 
 body {

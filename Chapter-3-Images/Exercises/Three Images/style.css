@@ -1,23 +1,33 @@
-
+/* Styling for all images */
 img {
   width: 200px;
   height: 200px;
-  filter:saturate(2);
+  filter:saturate(2); /*added saturated filter for all 3 iamges*/
 }
   
 .a {
+  /* Display as inline-block */
   display: inline-block;
+  /* Set font family */
   font-family: sans-serif;
+  /* Set font size */
   font-size: 20px;
+  /* Add margin */
   margin: 25px;
+  /* Add box shadow */
   box-shadow: 10px 10px 5px rgb(53, 53, 53);
+  /* Add border */
   border: 4px solid rgb(147, 75, 255);
+  /* Set line height */
   line-height: 100px;
+  /* Align text to center */
   text-align: center;
+  /* Set width */
   width: 200px;
+  /* Set height */
   height: 200px;
 }
-
+/* Style for class 'b' */
 .b {
   display: inline-block;
   font-family: sans-serif;
@@ -31,11 +41,12 @@ img {
   height: 200px;
 }
 
+/* Styling for the body */
   body {
-    margin: 100px auto;
+    margin: 100px auto; 
     width: max-content;
   }
-
+/* Style for class 'c' */
 .c {
   display: inline-block;
   font-family: sans-serif;
