@@ -1,35 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Tenor+Sans&display=swap');
+
 * {
     box-sizing: border-box;
   }
    
   body {
-    font-family: "Arial";
+    font-family: "Arial", sans-serif;
+    font-weight:400;
     background:  #ffffff;
+    margin:0;
   }
    
   /* Header/Blog Title */
   .header {
-    padding: 30px;
+    padding: 25px;
     text-align: center;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
     color: #ffffff;
     background: #17072b;
-  }
-   
-  .header h1 {
-    font-size: 60px;
-    font-family:"Tahoma";
   }
    
   /* Style the top navigation bar */
   .topnav {
     overflow: hidden;
     background-color:  rgb(29, 9, 85);
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
   }
    
   /* Style the topnav links */
@@ -48,42 +40,39 @@
     background-color: rgb(97, 65, 184);
     color: rgb(255, 255, 255);
   }
-   
+
   /* Create two unequal columns that floats next to each other */
   /* Left column */
-  .leftcolumn {   
-    position:absolute;
+  section {   
     float: left;
     background-color: #ffffff;
     color:rgb(0, 0, 0) ;
     font-size: 17px;
-    width: 70%;
-  }
-
-  section {
-    margin: 10px;
+    padding: 10px;
+    width: 68%;
   }
    
   /* Right column */
   aside {
-    position:absolute;
+    margin-top: 10px;
     float: left;
-    width: 30%;
-    margin-top:10px;
+    width: 32%;
+    padding: 10px;
     color: white;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
     background-color: #172d67;
-  }
-
-  .rightcolumn {
-    padding: 22px;
   }
   
   /* Footer */
-  .footer {
-  padding: 30px;
+  footer {
+  display: block;
+  clear: both;
+  padding: 2px;
+  color: white;
   text-align: center;
-  background:#AD0D0D ;
+  background:#8c15e9 ;
   margin-top: 20px;
-}
+ }
+
+
+
+
