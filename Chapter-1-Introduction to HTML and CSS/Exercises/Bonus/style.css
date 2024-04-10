@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Climate+Crisis&family=IM+Fell+DW+Pica:ital@0;1&family=Tilt+Warp&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: "Fredoka", sans-serif;
+    color: chocolate;
+}
+
+header {
+    color: chocolate;
+    font-family: 'Climate Crisis', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Fredoka", sans-serif;
+    color: chocolate;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+h2 {
+    color: chocolate;
+    font-family: 'Tilt Warp', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.about {
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: white;
+    font-family: "Fredoka", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box3 {
+    margin-top: 10px;
+    height: 360px;
+    border-radius: 40px;
+    border: medium dashed burlywood;
+    background-color:  rgb(255, 255, 255);
+}
+
+.proced1 {
+    margin: 20px;
+    color: chocolate;
+    font-size: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+.msg {
+    color: chocolate;
+    font-family: "Tilt Warp", sans-serif;
+    font-size: 1.5rem;
+}
+
+section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer {
+    color: rgb(232, 211, 142);
+}
+
