@@ -1,0 +1,68 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Pinyon+Script&display=swap');
+
+/* Universal box-sizing property */
+* {
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    /* Flexbox container settings */
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Styling for heading */
+h1 {
+    /* Applying custom fonts */
+    font-family: "Pinyon Script", cursive; 
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for the grid container */
+.board {
+    /* Grid container settings */
+    display: grid;
+    margin-top: 70px;
+    grid-template-rows: 175px 175px 175px;
+    grid-template-columns: 250px 250px 250px;
+}
+
+/* Styling for paragraph elements */
+p {
+    /* Applying custom fonts */
+    font-size: 18px;
+    font-style: bold;
+    font-family: "Fredoka", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* Styling for individual boxes */
+.box {
+    /* Box styles */
+    background-color: rgb(255, 181, 253);
+    margin: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 50px;
+}
+
+/* Hover effect for boxes */
+.box:hover {
+    background-color: palegreen;
+    box-shadow: 10px 10px 5px rgb(255, 255, 255);
+}
+
+
+
+
+
